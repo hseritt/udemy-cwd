@@ -1,0 +1,68 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: gray;
+    height: 10%;
+}
+
+section.logo {
+    background-color: green;
+    background-color: white;
+    height: 40%;
+    text-align: center;
+    padding: 100px;
+}
+
+img.logo_img {
+    height: 150px;
+}
+
+section.images {
+    background-color: blue;
+    background-color: white;
+    text-align: center;
+    height: 35%;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+figure:hover {
+    font-weight: bold;
+}
+
+.action_img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+.action_img:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90); 
+}
+
+figcaption {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+footer {
+    background-color: lightgrey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    height: 7%;
+    padding: 20px;
+    color: white;
+    font-size: smaller;
+}

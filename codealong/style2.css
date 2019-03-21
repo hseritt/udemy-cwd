@@ -1,0 +1,13 @@
+
+h2 {
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 2em; /* 5x the containing tag */
+    font-size: 2rem; /* 2x the root element */
+}

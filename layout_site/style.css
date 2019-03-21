@@ -1,0 +1,43 @@
+
+.container {
+    display: grid;
+    grid-row-gap: 120px;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+section.content {
+    margin-top: -150px;
+}
+
+img.logo {
+    height: 125px;
+}
+
+.content summary {
+    margin-top: 100px;
+}
+
+section.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+figure figcaption {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+}
+footer {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
